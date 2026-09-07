@@ -185,3 +185,4 @@ VeriFact follows an asynchronous, pipeline-driven architecture:
 ## License
 
 This project is licensed under the MIT License.
+
