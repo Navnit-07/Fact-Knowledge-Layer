@@ -511,3 +511,4 @@ with tab_dash:
                     )
     else:
         st.info("No issues logged.")
+
