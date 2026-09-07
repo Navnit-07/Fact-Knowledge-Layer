@@ -240,4 +240,3 @@ async def rerun_reconciliation():
         "facts_considered": len(all_facts),
         "new_relationships": len(new_rels),
     }
-

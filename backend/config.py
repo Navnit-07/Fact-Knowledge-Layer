@@ -43,4 +43,3 @@ CANDIDATES_PER_FACT  = int(os.getenv("VF_CANDIDATES_PER_FACT",    "6"))
 MAX_CLUSTER_SIZE     = int(os.getenv("VF_MAX_CLUSTER_SIZE",        "5"))
 
 VECTOR_COLLECTION = "verifact_facts"
-
