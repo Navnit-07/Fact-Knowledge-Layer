@@ -1,16 +1,15 @@
 from __future__ import annotations
 
 import asyncio
-from typing import Dict, List, Set, Tuple
+from typing import Any, Dict, List, Set, Tuple
 
-import chromadb
 from openai import AsyncOpenAI
 from tenacity import retry, stop_after_attempt, wait_random_exponential
 
 from . import config
 from .models import ClusterAnalysis, ClusterJudgment, Fact, FactRelationship, RelationshipType
 
-_chroma: chromadb.PersistentClient | None = None
+_chroma: Any | None = None
 _openai: AsyncOpenAI | None = None
 
 
@@ -38,6 +37,7 @@ def _get_client() -> AsyncOpenAI:
 def _get_collection():
     global _chroma
     if _chroma is None:
+        import chromadb
         _chroma = chromadb.PersistentClient(path=str(config.VECTOR_DIR))
     return _chroma.get_or_create_collection(
         name=config.VECTOR_COLLECTION,
