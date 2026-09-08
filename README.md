@@ -71,9 +71,9 @@ streamlit run frontend/app.py
 
 ## Video Demo
 
-[![VeriFact Demo Video](https://img.shields.io/badge/Demo_Video-Watch_Walkthrough-blue?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=placeholder)
+[![VeriFact Demo Video](https://img.shields.io/badge/Demo_Video-Watch_Walkthrough-blue?style=for-the-badge&logo=youtube)](https://drive.google.com/file/d/1wBNngnv-ZR91iNmlF7qzKZaHWQkrNjqs/view?usp=drive_link)
 
-> **Demo Video Link:** [https://www.youtube.com/watch?v=placeholder](https://www.youtube.com/watch?v=placeholder)  
+> **Demo Video Link:** [https://drive.google.com/file/d/1wBNngnv-ZR91iNmlF7qzKZaHWQkrNjqs/view?usp=drive_link](https://drive.google.com/file/d/1wBNngnv-ZR91iNmlF7qzKZaHWQkrNjqs/view?usp=drive_link)  
 > *A concise walkthrough (< 3 minutes) demonstrating document ingestion, fact extraction, and live detection across the four core relationships:*
 > 1. **CORROBORATED**: Mutual agreement across multiple sources on identical metrics.
 > 2. **CONTRADICTION**: Direct metric discrepancies under identical scopes and periods.
